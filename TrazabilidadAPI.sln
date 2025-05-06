@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrazabilidadAPI.SharedLibraries", "TrazabilidadAPI.SharedLibraries\TrazabilidadAPI.SharedLibraries.csproj", "{FA310AD6-0489-4A7C-A286-F644E2771E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrazabilidadAPI.Domain", "TrazabilidadAPI.Domain\TrazabilidadAPI.Domain.csproj", "{16C7645B-678D-4D45-A5B2-5801E667E080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrazabilidadAPI.Application", "TrazabilidadAPI.Application\TrazabilidadAPI.Application.csproj", "{9E761608-2370-4994-8B9D-8332CB2B4794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrazabilidadAPI.Infrastructure", "TrazabilidadAPI.Infrastructure\TrazabilidadAPI.Infrastructure.csproj", "{C53F4BF3-A91C-47B0-99A9-F98CD5632291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrazabilidadAPI.Presentation", "TrazabilidadAPI.Presentation\TrazabilidadAPI.Presentation.csproj", "{C7EF9220-E7DB-432A-9B93-967E0C0829D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA310AD6-0489-4A7C-A286-F644E2771E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA310AD6-0489-4A7C-A286-F644E2771E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA310AD6-0489-4A7C-A286-F644E2771E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA310AD6-0489-4A7C-A286-F644E2771E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C7645B-678D-4D45-A5B2-5801E667E080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C7645B-678D-4D45-A5B2-5801E667E080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C7645B-678D-4D45-A5B2-5801E667E080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C7645B-678D-4D45-A5B2-5801E667E080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E761608-2370-4994-8B9D-8332CB2B4794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E761608-2370-4994-8B9D-8332CB2B4794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E761608-2370-4994-8B9D-8332CB2B4794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E761608-2370-4994-8B9D-8332CB2B4794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53F4BF3-A91C-47B0-99A9-F98CD5632291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53F4BF3-A91C-47B0-99A9-F98CD5632291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53F4BF3-A91C-47B0-99A9-F98CD5632291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53F4BF3-A91C-47B0-99A9-F98CD5632291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EF9220-E7DB-432A-9B93-967E0C0829D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EF9220-E7DB-432A-9B93-967E0C0829D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EF9220-E7DB-432A-9B93-967E0C0829D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EF9220-E7DB-432A-9B93-967E0C0829D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93600012-9E24-49F5-88B1-02A2C5CE17B6}
+	EndGlobalSection
+EndGlobal

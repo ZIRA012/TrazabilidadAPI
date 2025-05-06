@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrazabilidadAPI.Domain\TrazabilidadAPI.Domain.csproj" />
+    <ProjectReference Include="..\TrazabilidadAPI.SharedLibraries\TrazabilidadAPI.SharedLibraries.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Conversions\" />
+  </ItemGroup>
+
+</Project>
