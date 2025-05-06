@@ -50,15 +50,15 @@ La solución está compuesta por 4 capas/proyectos:
 5. Marca el Proyecto TrazabilidadAPI.Presentation como proyecto de Inicio
 
 5.Migracion
-   -Compila toda la solucion 
+  - Compila toda la solucion
   - En Herramientas -> Administración de Paquetes Nuget -> Consola de Administrador de paquetes
   - Pon como proyecto predeterminado  TrazabilidadAPI.Infrastructure
   - Comando (Asegurate de que tu String Connection este bien):
      ```bash
-    - Add-Migration FirstMigration
+     Add-Migration FirstMigration
   - Comando:
-      ```bash
-      Update-Database
+    ```bash
+    Update-Database
 6. Agrega los datos de prueba en sql server
   Usa una query para poblas la base de datos con los datos de prueba
 7. Corre el proyecto
