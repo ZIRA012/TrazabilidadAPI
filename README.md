@@ -2,7 +2,7 @@
 
 Este proyecto es una API RESTful desarrollada con .NET 8 y Entity Framework Core. Gestiona un sistema de trazabilidad de procedimientos y conjuntos de datos, con autenticación basada en JWT y control de roles.
 
-**[ **🎞️🎞️🎞️🎞️🎞️VER VIDEO DE PRESENTACION 🎞️🎞️🎞️🎞️🎞️**]([(https://www.youtube.com/watch?v=TU_LINK_AQUI](https://youtu.be/nkmPMbNLUOo)])**
+**[ **🎞️🎞️🎞️🎞️🎞️VER VIDEO DE PRESENTACION 🎞️🎞️🎞️🎞️🎞️**]([(https://youtu.be/nkmPMbNLUOo)])**
 
 ## 🚀 Tecnologías Utilizadas
 
