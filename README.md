@@ -35,7 +35,7 @@ La solución está compuesta por 4 capas/proyectos:
 
 2. **Configura la cadena de conexión**:
 
-   En `appsettings.json` del proyecto `Presentation`, coloca tu cadena de conexión a SQL Server:
+   En `appsettings.json` del proyecto `Presentation`, configura tu cadena de conexión a SQL Server con el nombre de tu servidor:
 
    ```json
    "ConnectionStrings": {
@@ -61,7 +61,7 @@ La solución está compuesta por 4 capas/proyectos:
    - Verifica que la base fue creada Correcamente
    - Abre el archivo adjunto `PoblarBasedeDatos.sql`
    - Ejecuta la Query
-   - Verifica que la base se hay poblado
+   - Verifica que la base de datos este llena
    
 8. Corre el proyecto en https
 
