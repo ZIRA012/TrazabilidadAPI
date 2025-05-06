@@ -53,17 +53,17 @@ La solución está compuesta por 4 capas/proyectos:
   - Compila toda la solucion
   - En Herramientas -> Administración de Paquetes Nuget -> Consola de Administrador de paquetes
   - Pon como proyecto predeterminado  TrazabilidadAPI.Infrastructure
-  - Comando (Asegurate de que tu String Connection este bien):
-     ```bash
-     Add-Migration FirstMigration
-  - Comando:
+  - Comando(Asegurate que la Connection string este bien configurado y que apunte a la base de datos `TrazabilidadDB`):
     ```bash
     Update-Database
 6. Poblar Base de datos
-   -Abre Sql Managament
-   -Elige la base de datos creada, nueva query
-   -Abre el Arhivo adjunto `PoblarBasedeDatos.sql`
-8. Corre el proyecto
+   - Abre SQL Managament
+   - Verifica que la base fue creada Correcamente
+   - Abre el archivo adjunto `PoblarBasedeDatos.sql`
+   - Ejecuta la Query
+   - Verifica que la base se hay poblado
+   
+8. Corre el proyecto en https
 
 
 
