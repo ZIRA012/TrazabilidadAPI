@@ -45,7 +45,7 @@ La solución está compuesta por 4 capas/proyectos:
 
 3. **Ejecuta el siguiente comando en la raíz de la solución**:
    ```bash
-    dotnet restore
+   dotnet restore
 
 5. Marca el Proyecto TrazabilidadAPI.Presentation como proyecto de Inicio
 
