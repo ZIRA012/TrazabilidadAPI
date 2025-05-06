@@ -59,9 +59,11 @@ La solución está compuesta por 4 capas/proyectos:
   - Comando:
     ```bash
     Update-Database
-6. Agrega los datos de prueba en sql server
-  Usa una query para poblas la base de datos con los datos de prueba
-7. Corre el proyecto
+6. Poblar Base de datos
+   -Abre Sql Managament
+   -Elige la base de datos creada, nueva query
+   -Abre el Arhivo adjunto `PoblarBasedeDatos.sql`
+8. Corre el proyecto
 
 
 
